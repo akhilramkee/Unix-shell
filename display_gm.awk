@@ -12,7 +12,7 @@ BEGIN{
                 name = $2
 		designation=$3
 		dept=$4
-        print(id,name,designation,dept)
+        print(NR,id,name,designation,dept)
 	}
 }
 END{
